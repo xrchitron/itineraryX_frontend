@@ -1,7 +1,13 @@
 <script setup>
+import OriginDestinationForm from '../components/OriginDestinationForm.vue';
+import DirectionsMapView from '../components/DirectionsMapView.vue';
+import RouteList from '../components/RouteList.vue';
+
 </script>
 <template>
-  <div>
-    <h1>Distance Calculator</h1>
-  </div>
+  <main>
+    <OriginDestinationForm />
+    <RouteList />
+    <DirectionsMapView />
+  </main>
 </template>
